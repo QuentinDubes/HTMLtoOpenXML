@@ -163,7 +163,7 @@ class Parser
             $output .= $this->_closeAndOpenP(true);
         }
 
-        $this->_listIndex += 1;
+        //$this->_listIndex += 1;
 
         return $output;
     }
