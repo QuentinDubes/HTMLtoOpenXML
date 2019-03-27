@@ -7,7 +7,7 @@ class Parser
 
     private $_cleaner;
     private $_processProperties;
-    private $_listIndex = 1;
+    private $_listIndex = 0;
     private $_listLevel = 0;
     private $_openXml = '';
     private $_pStyle = null;
