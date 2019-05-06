@@ -163,6 +163,6 @@ class HTMLCleaner {
      * For XML, ampersands need to be &amp;
      */
     private function _fixAmpersands(){
-        $this->_html = preg_replace('/&(?!amp;)/i', '&amp;', $this->_html);
+        $this->_html = preg_replace('/&(?!amp;)(?!#..;)/i', '&amp;', $this->_html);
     }
 }
